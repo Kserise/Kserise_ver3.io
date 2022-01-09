@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Cute Font', cursive;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Noto Sans KR', sans-serif;
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}

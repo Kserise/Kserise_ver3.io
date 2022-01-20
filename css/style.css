@@ -509,10 +509,15 @@
         font-size: 14px;
         text-shadow: 1px 0 #ffacc4, -1px 0 #ffacc4, 0 1px #ffacc4, 0 -1px #ffacc4;
     }
-    
+
+    .layer ul li a:hover {
+        transform: translateX(5px);
+    }
+
     .layer ul li a:hover:before {
         font-size:14px;
     }
+    
     .house img {
         width: calc(70px + 10%);
     }

@@ -507,6 +507,10 @@ nav ul li a:hover:before {
         width: 200px;
     }
 
+    .windowmenu_ul li {
+        padding: 10px 0 10px 20px;
+    }
+    
     .windowmenu_ul li .icon {
         margin-right: 15px;
         font-size: 18px;

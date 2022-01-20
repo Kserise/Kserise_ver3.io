@@ -387,3 +387,103 @@ nav ul li a:hover:before {
     height:30px;
     background:rgba(255,255,255,0.7);
 }
+
+@media screen and (max-width:767px){
+    header {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        right: 20px;
+    }
+
+    .charinfo:before {
+        width: 300px;
+        height: 300px;
+    }
+
+    .charinfo:nth-child(1):before, 
+    .charinfo:nth-child(2):before, 
+    .charinfo:nth-child(3):before {
+        background-size:cover;
+    }
+
+    .info {
+        width: 300px; z-index: 1;
+    }
+
+    .info h2 {
+        margin-bottom: 10px;
+        font-size: 45px;
+        text-align: left;
+    }
+    .namebox {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .info p {
+        padding: 0;
+    }
+    
+    .info p > span:nth-child(1) {
+        font-size: 20px;
+    }
+    .info p > span:nth-child(2) {
+        font-size: 14px;
+    }
+    .info p > span:nth-child(2) strong {
+        font-size: 26px;
+    }
+    .info p > span:nth-child(2) span {
+        font-size: 20px;
+    }
+    .info p > span:nth-child(2) {
+        font-size: 16px;
+    }
+    .charimg {
+        width: 100px;
+        height: 180px;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+    }
+    .namebox .name {
+        font-size: 20px;
+    }
+
+    .namebox .name:before {
+        font-size: 15px;
+        top: 15px;
+    }
+
+    .namebox .icon {
+        width: 50px;
+        font-size: 20px;
+    }
+
+    .select {
+        left:0;
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .selectbox {
+        width: 60px;
+    }
+
+    .selectbox img {
+        height: 60px;
+    }
+
+    .selectbox p {
+        height: 20px;
+        font-size: 13px;
+        text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
+    }
+
+}

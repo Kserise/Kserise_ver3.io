@@ -95,7 +95,7 @@
     position: relative;
     width:100%;
     height:100%;
-    background:url(../imgs/2534-[변환됨].png) no-repeat center;
+    background:url(../imgs/sun.png) no-repeat center;
     background-size: cover;
 }
 .sun:before {
@@ -201,7 +201,7 @@
 }
 .house img {
     position:absolute;
-    width:300px;
+    width:calc(100px + 10%);
     filter:drop-shadow(0 3px 4px #000);
     transition:0.3s;
     transform-origin: bottom center;
@@ -435,4 +435,85 @@
     left:360px;
     transform:rotate(15deg);
     text-shadow:2px 5px 2px #DE65B5;
+}
+
+
+@media screen and (max-width:767px){
+
+    .sun {
+        background: url(../imgs/sun.png) no-repeat left center;
+        background-size:cover;
+    }
+
+    .opning.on .layer:before {
+        display:none;
+    }
+
+    .opning.on .topbar {
+        height: 200px;
+    }
+    .opning.on .bottombar {
+        height: 80px;
+    }
+
+    .opning.on .layerlogo {
+        left: calc(50% - 150px);
+        top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .layerlogo span {
+        font-size: 8em;
+    }
+
+    .layerlogo:before {
+        left: 5%;
+        top: 50px;
+        width: 90%;
+        height: 80%;
+    }
+    .layerlogo span:nth-child(1) {
+        left: 20px;
+    }
+    .layerlogo span:nth-child(2) {
+        left: 80px;
+    }
+    .layerlogo span:nth-child(3) {
+        left: 160px;
+    }
+    .layerlogo span:nth-child(4) {
+        left: 220px;
+    }
+    .layerlogo span:nth-child(5) {
+        left: 40px; top:120px;
+    }
+    .layerlogo span:nth-child(6) {
+        left: 120px; top:120px;
+    }
+    .layerlogo span:nth-child(7) {
+        left: 200px; top:120px;
+    }
+    .layerlogo span:nth-child(8) {
+        left: 260px; top:120px;
+    }
+
+    .opning.on .layer ul {
+        display: flex;
+        justify-content: space-between;
+        left: 5%;
+        width: 90%;
+    }
+
+    .layer ul li a {
+        font-size: 14px;
+        text-shadow: 1px 0 #ffacc4, -1px 0 #ffacc4, 0 1px #ffacc4, 0 -1px #ffacc4;
+    }
+    
+    .layer ul li a:hover:before {
+        font-size:14px;
+    }
+    .house img {
+        width: calc(70px + 10%);
+    }
 }

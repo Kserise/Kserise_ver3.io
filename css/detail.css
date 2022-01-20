@@ -434,3 +434,98 @@ nav ul li a:hover:before {
     font-weight: 500;
     color:#831f8a;
 }
+
+@media screen and (max-width:767px){
+    header {
+        padding:30px 20px;
+    }
+
+    header h1 {
+        font-size:20px;
+    }
+
+    nav {
+        right:20px;
+        width:250px;
+    }
+
+    .screens-parent {
+        width: 300px;
+        height: 200px;
+        margin-top: -200px;
+    }
+
+    .screen-bar:before {
+        width: 20px;
+        font-size: 15px;
+    }
+
+    .screen-img .chatbox {
+        left: calc(50% - 120px);
+        bottom: 10px;
+        width: 80%;
+        height: 60px;
+    }
+    .screen-img .chatbox:after {
+        left: 15px;
+        top: -20px;
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .screen-img .chatbox p {
+        font-size: 12px;
+    }
+
+
+
+
+    .detail_info {
+        right: calc(50% - 180px);
+        bottom: 20%;
+    }
+
+    .de_infobox {
+        width: 200px;
+    }
+
+    .de_info_top {
+        font-size:14px;
+    }
+
+    .de_info_top span {
+        font-size: 14px;
+    }
+
+    .de_info_bottom {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .windowmenu_ul {
+        width: 200px;
+    }
+
+    .windowmenu_ul li .icon {
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    .windowmenu_ul li .text {
+        font-size: 14px;
+    }
+
+    .windowmenu {
+        height: 40px;
+        padding: 0 30px;
+    }
+
+    .windowmenu h2 {
+        font-size: 20px;
+    }
+
+    .windowmenu div span {
+        font-size: 20px;
+    }
+}
